@@ -308,10 +308,11 @@ script:
     - curl --upload-file ./$C42P2 http://transfer.sh/
     - curl --upload-file ./$C43P1 http://transfer.sh/
     - curl --upload-file ./$C43P2 http://transfer.sh/
+    - curl --upload-file ./$C44P1 http://transfer.sh/
     - curl --upload-file ./$C44P2 http://transfer.sh/
     - curl --upload-file ./$C45P1 http://transfer.sh/
     - curl --upload-file ./$C45P2 http://transfer.sh/
-    - curl --upload-file ./$C46 http://transfer.sh/
+#    - curl --upload-file ./$C46 http://transfer.sh/
 #    - curl --upload-file ./$C47 http://transfer.sh/
 #    - curl --upload-file ./$C48 http://transfer.sh/
 #    - curl --upload-file ./$C49 http://transfer.sh/
