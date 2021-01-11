@@ -80,22 +80,22 @@ script:
 #    - ffmpeg -i "https://proxy-06.nyc.dailymotion.com/sec(7TR_qBFuZP9vaMKGWuhcZIbPHlpTWnG0H3W6rmDuPSkj2m0HCNcYvzYmZaAyoQ2W8CAOrCws5D040yGzBr98WHOze3SvYr60rhRSUjza5oc)/video/548/046/478640845_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C6P2" 
 #    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(saQeXx3qXZg3T3rkC8HACOdZdEo96qF9kcFFkjlYMmbI8kOZLRnZzMHVMn4TEwLJIwMGxkEy2CRJM1YeRCxIye-NaxsB_aDZu4oBZdJtSzo)/video/488/886/478688884_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C7P1" 
 #    - ffmpeg -i "https://proxy-18.nyc.dailymotion.com/sec(Y1vpsrJkRaxa6jF-j2RR0tvJKxOoMOTUTPTb_BrNOQVggr-_z1DdRpEgbdF56t8R-6CH_1JbxEqW_ItVH71bpKRreWVQJZSxBqMm2bo93_s)/video/588/886/478688885_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C7P2" 
-    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(vlh-KpwGb8HUr2KugsbYOXdVs-ADgnqcPEIC6W0TtkYbdOpUZirb2Uydbh0ArErbIDAMCs48SsShVvZMZ4o38NYm3bOdpkU6SnqRadT18qI)/video/410/327/478723014_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C8P1" 
-    - ffmpeg -i "https://proxy-09.nyc.dailymotion.com/sec(gGqtclnn_bIC9m3nn5-WqNq5ni44lXBfDu1pKEyCS-QUcWXKGcFHL6L5o0Dp49RHkDXXPoxwnYL5BX-9VSg0gB7CjsZe5W3B54ofWEbDcKA)/video/510/327/478723015_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C8P2" 
-    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(a-xnh38FX-dtsG2LoOMN1CmLrKdSStl4R_XtkILcbKqAJRwUvHgcDVDamddRnz3gjPIVgRGpme6VVjxEAIxQUuvD-PP7N3S8nStfG2jRY5M)/video/183/818/478818381_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C9P1" 
-    - ffmpeg -i "https://proxy-10.nyc.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTsibtg_Gnczl6FGoGMhi1e-ldc_N1fuypG_4WOdD5RWZYznNlR_F32K3qCphWBnHMu7YAH3OwndTwzpV7dUu9ZU)/video/644/818/478818446_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C9P2" 
-    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(gGqtclnn_bIC9m3nn5-WqGyVHdZKs7X1fHlTDLt7Uix5noMGTEwlnu-3NZFOpEeVOIF9k_iE1oNf2D8wW0RLXQvIG6343i5iugiSjHAosPs)/video/515/458/478854515_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C10P1" 
-    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(F2xm4AE_MJz4XuMt-sLSYdGMmcov0Dp44Rku6Wr9YLKKRJ02GNa5BxlDggzCTfdp03IzGSrEQ6Kvv6cczErjPrAampBd3DsT68tY0aXUypc)/video/847/458/478854748_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C10P2" 
-    - ffmpeg -i "https://proxy-03.nyc.dailymotion.com/sec(vH_amhAWVjdOjt9rQ-usyODKFOCoPye_2nmNaEHx5fNeOimuuwAJs2KDwysjp3YqOPs7R43mKyxy0xUxTeS6lmdGUUv9RiRXpmZtAw29uwQ)/video/785/298/478892587_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C11P1" 
-    - ffmpeg -i "https://proxy-13.nyc.dailymotion.com/sec(Y1vpsrJkRaxa6jF-j2RR0jrP-2sPmsX-jJHj7lsdKgk91b1SkV8VAcV6Pg_vJ7GFAyMZ1cvKyQDMFA9EXGQpso-q8J_qgMGgC7cHT6NkAaE)/video/585/298/478892585_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C11P2" 
-#    - ffmpeg -i "https://proxy-04.nyc.dailymotion.com/sec(w5efqWj1U6D91t1Jg1W0Q6UgAkDbr-mct1mNhXM31wK5crE61oOmZ1XEN-GR8xn8jjA5f6qSUSnlshFx5LX84myd3dhhJjypsQAmBxuV7oo)/video/938/239/478932839_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C12P1" 
-#    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(eN_O0L9vhGgUcOMg9A9kEMIykLydUherUqu62Wke86kxRuYEKH0mG349fV86_o8rsVwbJDD1y02qOFEORqWCElqAPSyVpsZrTKhSyB_u7XA)/video/919/239/478932919_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C12P2" 
-#    - ffmpeg -i "https://proxy-12.nyc.dailymotion.com/sec(KATIkk8whdE3Tc4uE-4pKvlw5xhjCkXkZ43dYC2LQCvY7uKIpvRj-4Q5t3PgyTaZs5yrcXzc2I_iH2C5Zl4unFYfUoUDxmH3F9DtWPPqOCI)/video/905/959/478959509_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C13P1" 
-#    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(saQeXx3qXZg3T3rkC8HACIBX0-ZCky8xdgj5NilcvNz-1sll6o713iJUFFhM4649E78gsB7aw3z0SQKEMvIKPtxiug20FCx-T9TV2sr1FyU)/video/486/959/478959684_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C13P2" 
-#    - ffmpeg -i "https://proxy-15.nyc.dailymotion.com/sec(vlh-KpwGb8HUr2KugsbYOQlik-KjDNq2hb_OzrFmBJ6xS2d2cjBf2zEcrdkKm1XKOQrmdPsJtOv28jX_-FxubssE6_GFnmtY8w-tGoaLPyU)/video/410/570/479075014_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C14P1" 
-#    - ffmpeg -i "https://proxy-04.nyc.dailymotion.com/sec(f7OPR3CuerPHnzETozIU-wxJlbGZ-ZUMe1W0uDOat06mBhLZOnwy71eqn2a1v0f5h7UnPYRdjcaDsTFIyiajd_5tQwXlAlXc7cYQaa2pb8Y)/video/870/280/479082078_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C14P2" 
-#    - ffmpeg -i "https://proxy-14.nyc.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTh3coKbNY9C2ugr2q3l0ZNjUDsZX-WSOAr_NrsD-SJbtL45hL2K0IgylyPHpTl9DjGsZJWe-aq24P9SwMzB864o)/video/640/411/479114046_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C15P1" 
-#    - ffmpeg -i "https://proxy-07.nyc.dailymotion.com/sec(QnwGbYX9Ck4JBJsmoqLQiAH6QXXE64iqrN3pBHfqXQtnETSYtGTAG5bXyMS0zZ-xC7pMoGlvSgaf_8P-MUfAALXeRNayhBoSHNUlUr49b9g)/video/740/411/479114047_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C15P2" 
+#    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(vlh-KpwGb8HUr2KugsbYOXdVs-ADgnqcPEIC6W0TtkYbdOpUZirb2Uydbh0ArErbIDAMCs48SsShVvZMZ4o38NYm3bOdpkU6SnqRadT18qI)/video/410/327/478723014_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C8P1" 
+#    - ffmpeg -i "https://proxy-09.nyc.dailymotion.com/sec(gGqtclnn_bIC9m3nn5-WqNq5ni44lXBfDu1pKEyCS-QUcWXKGcFHL6L5o0Dp49RHkDXXPoxwnYL5BX-9VSg0gB7CjsZe5W3B54ofWEbDcKA)/video/510/327/478723015_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C8P2" 
+#    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(a-xnh38FX-dtsG2LoOMN1CmLrKdSStl4R_XtkILcbKqAJRwUvHgcDVDamddRnz3gjPIVgRGpme6VVjxEAIxQUuvD-PP7N3S8nStfG2jRY5M)/video/183/818/478818381_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C9P1" 
+#    - ffmpeg -i "https://proxy-10.nyc.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTsibtg_Gnczl6FGoGMhi1e-ldc_N1fuypG_4WOdD5RWZYznNlR_F32K3qCphWBnHMu7YAH3OwndTwzpV7dUu9ZU)/video/644/818/478818446_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C9P2" 
+#    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(gGqtclnn_bIC9m3nn5-WqGyVHdZKs7X1fHlTDLt7Uix5noMGTEwlnu-3NZFOpEeVOIF9k_iE1oNf2D8wW0RLXQvIG6343i5iugiSjHAosPs)/video/515/458/478854515_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C10P1" 
+#    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(F2xm4AE_MJz4XuMt-sLSYdGMmcov0Dp44Rku6Wr9YLKKRJ02GNa5BxlDggzCTfdp03IzGSrEQ6Kvv6cczErjPrAampBd3DsT68tY0aXUypc)/video/847/458/478854748_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C10P2" 
+#    - ffmpeg -i "https://proxy-03.nyc.dailymotion.com/sec(vH_amhAWVjdOjt9rQ-usyODKFOCoPye_2nmNaEHx5fNeOimuuwAJs2KDwysjp3YqOPs7R43mKyxy0xUxTeS6lmdGUUv9RiRXpmZtAw29uwQ)/video/785/298/478892587_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C11P1" 
+#    - ffmpeg -i "https://proxy-13.nyc.dailymotion.com/sec(Y1vpsrJkRaxa6jF-j2RR0jrP-2sPmsX-jJHj7lsdKgk91b1SkV8VAcV6Pg_vJ7GFAyMZ1cvKyQDMFA9EXGQpso-q8J_qgMGgC7cHT6NkAaE)/video/585/298/478892585_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C11P2" 
+    - ffmpeg -i "https://proxy-04.nyc.dailymotion.com/sec(w5efqWj1U6D91t1Jg1W0Q6UgAkDbr-mct1mNhXM31wK5crE61oOmZ1XEN-GR8xn8jjA5f6qSUSnlshFx5LX84myd3dhhJjypsQAmBxuV7oo)/video/938/239/478932839_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C12P1" 
+    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(eN_O0L9vhGgUcOMg9A9kEMIykLydUherUqu62Wke86kxRuYEKH0mG349fV86_o8rsVwbJDD1y02qOFEORqWCElqAPSyVpsZrTKhSyB_u7XA)/video/919/239/478932919_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C12P2" 
+    - ffmpeg -i "https://proxy-12.nyc.dailymotion.com/sec(KATIkk8whdE3Tc4uE-4pKvlw5xhjCkXkZ43dYC2LQCvY7uKIpvRj-4Q5t3PgyTaZs5yrcXzc2I_iH2C5Zl4unFYfUoUDxmH3F9DtWPPqOCI)/video/905/959/478959509_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C13P1" 
+    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(saQeXx3qXZg3T3rkC8HACIBX0-ZCky8xdgj5NilcvNz-1sll6o713iJUFFhM4649E78gsB7aw3z0SQKEMvIKPtxiug20FCx-T9TV2sr1FyU)/video/486/959/478959684_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C13P2" 
+    - ffmpeg -i "https://proxy-15.nyc.dailymotion.com/sec(vlh-KpwGb8HUr2KugsbYOQlik-KjDNq2hb_OzrFmBJ6xS2d2cjBf2zEcrdkKm1XKOQrmdPsJtOv28jX_-FxubssE6_GFnmtY8w-tGoaLPyU)/video/410/570/479075014_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C14P1" 
+    - ffmpeg -i "https://proxy-04.nyc.dailymotion.com/sec(f7OPR3CuerPHnzETozIU-wxJlbGZ-ZUMe1W0uDOat06mBhLZOnwy71eqn2a1v0f5h7UnPYRdjcaDsTFIyiajd_5tQwXlAlXc7cYQaa2pb8Y)/video/870/280/479082078_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C14P2" 
+    - ffmpeg -i "https://proxy-14.nyc.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTh3coKbNY9C2ugr2q3l0ZNjUDsZX-WSOAr_NrsD-SJbtL45hL2K0IgylyPHpTl9DjGsZJWe-aq24P9SwMzB864o)/video/640/411/479114046_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C15P1" 
+    - ffmpeg -i "https://proxy-07.nyc.dailymotion.com/sec(QnwGbYX9Ck4JBJsmoqLQiAH6QXXE64iqrN3pBHfqXQtnETSYtGTAG5bXyMS0zZ-xC7pMoGlvSgaf_8P-MUfAALXeRNayhBoSHNUlUr49b9g)/video/740/411/479114047_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C15P2" 
 #    - ffmpeg -i "https://proxy-17.nyc.dailymotion.com/sec(f7OPR3CuerPHnzETozIU-16wZWzkGpwLh4HAICFk4JYAkVo9kNjwMVXrESPKo_JkZ184BMg2GlXc2Wx4dyh836aGkCvazgVeHEVcMee4t4M)/video/876/741/479147678_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C16P1" 
 #    - ffmpeg -i "https://proxy-19.nyc.dailymotion.com/sec(7TR_qBFuZP9vaMKGWuhcZNOlwZM9cpfqjk8B63cBVeAuZqUefubP5-_xWJ_DrFWykzOgwe3u8aryA6tQYYoChWsqupyEyLJFV5uzKpEzCB4)/video/544/841/479148445_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C16P2" 
 #    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(LL70bUvxgBlOH8BfPRBrXyyz3sH7rBCUfHm_MDCfeKM80hzdlv8UkNI5WLsqHX8G-qfSZh4uTdW8w0w5y3SAymnLfz16d2Al8HQnW0sVtJI)/video/210/881/479188012_mp4_h264_aac_hd_hfr.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "$C17P1" 
@@ -132,22 +132,22 @@ script:
 #    - curl --upload-file ./$C6P2 http://transfer.sh/
 #    - curl --upload-file ./$C7P1 http://transfer.sh/
 #    - curl --upload-file ./$C7P2 http://transfer.sh/
-    - curl --upload-file ./$C8P1 http://transfer.sh/
-    - curl --upload-file ./$C8P2 http://transfer.sh/
-    - curl --upload-file ./$C9P1 http://transfer.sh/
-    - curl --upload-file ./$C9P2 http://transfer.sh/
-    - curl --upload-file ./$C10P1 http://transfer.sh/
-    - curl --upload-file ./$C10P2 http://transfer.sh/
-    - curl --upload-file ./$C11P1 http://transfer.sh/
-    - curl --upload-file ./$C11P2 http://transfer.sh/
-#    - curl --upload-file ./$C12P1 http://transfer.sh/
-#    - curl --upload-file ./$C12P2 http://transfer.sh/
-#    - curl --upload-file ./$C13P1 http://transfer.sh/
-#    - curl --upload-file ./$C13P2 http://transfer.sh/
-#    - curl --upload-file ./$C14P1 http://transfer.sh/
-#    - curl --upload-file ./$C14P2 http://transfer.sh/
-#    - curl --upload-file ./$C15P1 http://transfer.sh/
-#    - curl --upload-file ./$C15P2 http://transfer.sh/
+#    - curl --upload-file ./$C8P1 http://transfer.sh/
+#    - curl --upload-file ./$C8P2 http://transfer.sh/
+#    - curl --upload-file ./$C9P1 http://transfer.sh/
+#    - curl --upload-file ./$C9P2 http://transfer.sh/
+#    - curl --upload-file ./$C10P1 http://transfer.sh/
+#    - curl --upload-file ./$C10P2 http://transfer.sh/
+#    - curl --upload-file ./$C11P1 http://transfer.sh/
+#    - curl --upload-file ./$C11P2 http://transfer.sh/
+    - curl --upload-file ./$C12P1 http://transfer.sh/
+    - curl --upload-file ./$C12P2 http://transfer.sh/
+    - curl --upload-file ./$C13P1 http://transfer.sh/
+    - curl --upload-file ./$C13P2 http://transfer.sh/
+    - curl --upload-file ./$C14P1 http://transfer.sh/
+    - curl --upload-file ./$C14P2 http://transfer.sh/
+    - curl --upload-file ./$C15P1 http://transfer.sh/
+    - curl --upload-file ./$C15P2 http://transfer.sh/
 #    - curl --upload-file ./$C16P1 http://transfer.sh/
 #    - curl --upload-file ./$C16P2 http://transfer.sh/
 #    - curl --upload-file ./$C17P1 http://transfer.sh/
