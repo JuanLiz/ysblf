@@ -318,8 +318,9 @@ script:
     - curl --upload-file ./$C49 http://transfer.sh/
     - curl --upload-file ./$C50 http://transfer.sh/
     - curl --upload-file ./$C51 http://transfer.sh/
+    - curl --upload-file ./$C52 http://transfer.sh/
     - curl --upload-file ./$C53 http://transfer.sh/
-    - curl --upload-file ./$C54 http://transfer.sh/
+#    - curl --upload-file ./$C54 http://transfer.sh/
 #    - curl --upload-file ./$C55 http://transfer.sh/
 #    - curl --upload-file ./$C56 http://transfer.sh/
 #    - curl --upload-file ./$CXPX http://transfer.sh/
