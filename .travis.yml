@@ -14,21 +14,36 @@ script:
     - sudo sh -c "mkdir /video && chown "$(whoami):"$(whoami) /video" && cd /video
 
 #   ---TRANSCODE---
-    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(3pK_lWmRm9K5a5rtJDyjq9WPZ-kGqnlW9ouskk3CA2vmIrTjmlaysdLu1GBy-71zD1wr2WGvZwKf542Mb53jNnyrJnIqOwoEDyCUY4ZuFEo)/video/434/515/482515434_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4"
-    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(EHfdmWMWS3Jm1rUwOSzPqFhRJzfLTZ4wDxy9L873wJTcYaQOPTJ8JcPn_tYu3jb5jOZOsmkOGDflZsV0SP8jwGzikmq4AOX4_2qi9Bw4dgU)/video/762/306/482603267_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_124_-_Betty_perdona_a_Armando.mp4"
-    - ffmpeg -i "https://proxy-15.nyc.dailymotion.com/sec(6KQ917mD1-x0Bqudp7rLfPy0L2VdoQqyCPkoY8LSnxE9x1K2AoPTkvEf2WF1tBW_l_GcqUrRZm4dG1GEfyQnaNHc-U2TqyG-p-kOkXp6liY)/video/892/736/482637298_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4"
-    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(No_TQeY4Fy-YPTx9YHcvGw4wJko0JdsykIglWm0qoamhsrNKurP5jxb1XGGEw3cfgfa1_kTIM0bVYwHy-fIoSFQPDCmypwEDBwEz4lm3i2o)/video/191/286/482682191_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4"
-    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(s_13t_2f7O0wwaaFk-MzVWEffkbXxwIm7_RPj1NfMXXFItFwz5xyAki19ir4D8R1JKv7otQtSOklYIOb7Ofw78RN-BvQWM4J4xl9CL4Vg9w)/video/962/127/482721269_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4"
-    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(f7C1WGB23Wky-SSXeiIenZG4PkmJ4ezHHe-9jIn6XBD_y71RqWrQzgMa2KFWY_daE56wurDr0ilzpi3Hb9rhtxAZJe2So9MpNrIfP66LJlk)/video/058/657/482756850_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4"
-
-#    - ffmpeg -i "" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 ""$" 
+#    - ffmpeg -i "" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4"
 #   ---UPLOAD---
-    - curl --upload-file ./Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_124_-_Betty_perdona_a_Armando.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4 http://transfer.sh/
+#    - curl --upload-file ./Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
+#   ---2WEBDAV---
+    - wget http://transfer.sh/8ayG6/Capitulo_102_-_Armando_golpea_fuertemente_a_Nicolas.mp4
+    - wget http://transfer.sh/ZkgZs/Capitulo_103_-_Armando_le_confiesa_a_Betty_que_hara_publico_su_amor_por_ella.mp4
+    - wget http://transfer.sh/132cDc/Capitulo_104_-_Daniel_enfrenta_a_Armando_y_le_pregunta_por_Terramoda.mp4
+    - wget http://transfer.sh/IjMpi/Capitulo_105_-_Armando_le_promete_a_Betty_que_va_a_terminar_su_relacion_con_Marcela.mp4
+    - wget http://transfer.sh/15RJNe/Capitulo_106_-_Daniel_se_entera_de_los_problemas_economicos_de_Ecomoda.mp4
+    - wget http://transfer.sh/jgIu4/Capitulo_107_-_Nicolas_y_Patricia_viven_una_apasionada_noche.mp4
+    - wget http://transfer.sh/CqpPk/Capitulo_108_-_Daniel_se_entera_de_que_Terramoda_embargo_a_Ecomoda.mp4
+    - wget http://transfer.sh/I2ntz/Capitulo_109_-_La_gran_Junta_Directiva.mp4
+    - wget http://transfer.sh/SWf8H/Capitulo_110_-_Betty_da_la_cara_ante_la_Junta_Directiva.mp4
+    - wget http://transfer.sh/a33gq/Capitulo_111_-_Betty_le_confiesa_a_Marcela_la_verdad_de_su_relacion_con_Armando.mp4
+    - wget http://transfer.sh/OFEmh/Capitulo_112_-_Betty_llega_a_Cartagena_junto_a_Catalina.mp4
+    - wget http://transfer.sh/IEXri/Capitulo_113_-_Betty_conoce_a_Michel%2C_el_frances.mp4
+    - wget http://transfer.sh/mdG6R/Capitulo_114_-_Betty_abre_su_corazon_con_Catalina.mp4
 
-#
-#    - curl --upload-file ./$CXPX http://transfer.sh/
+    - curl -T Capitulo_102_-_Armando_golpea_fuertemente_a_Nicolas.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_102_-_Armando_golpea_fuertemente_a_Nicolas.mp4
+    - curl -T Capitulo_103_-_Armando_le_confiesa_a_Betty_que_hara_publico_su_amor_por_ella.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_103_-_Armando_le_confiesa_a_Betty_que_hara_publico_su_amor_por_ella.mp4
+    - curl -T Capitulo_104_-_Daniel_enfrenta_a_Armando_y_le_pregunta_por_Terramoda.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_104_-_Daniel_enfrenta_a_Armando_y_le_pregunta_por_Terramoda.mp4
+    - curl -T Capitulo_105_-_Armando_le_promete_a_Betty_que_va_a_terminar_su_relacion_con_Marcela.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_105_-_Armando_le_promete_a_Betty_que_va_a_terminar_su_relacion_con_Marcela.mp4
+    - curl -T Capitulo_106_-_Daniel_se_entera_de_los_problemas_economicos_de_Ecomoda.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_106_-_Daniel_se_entera_de_los_problemas_economicos_de_Ecomoda.mp4
+    - curl -T Capitulo_107_-_Nicolas_y_Patricia_viven_una_apasionada_noche.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_107_-_Nicolas_y_Patricia_viven_una_apasionada_noche.mp4
+    - curl -T Capitulo_108_-_Daniel_se_entera_de_que_Terramoda_embargo_a_Ecomoda.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_108_-_Daniel_se_entera_de_que_Terramoda_embargo_a_Ecomoda.mp4
+    - curl -T Capitulo_109_-_La_gran_Junta_Directiva.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_109_-_La_gran_Junta_Directiva.mp4
+    - curl -T Capitulo_110_-_Betty_da_la_cara_ante_la_Junta_Directiva.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_110_-_Betty_da_la_cara_ante_la_Junta_Directiva.mp4
+    - curl -T Capitulo_111_-_Betty_le_confiesa_a_Marcela_la_verdad_de_su_relacion_con_Armando.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_111_-_Betty_le_confiesa_a_Marcela_la_verdad_de_su_relacion_con_Armando.mp4
+    - curl -T Capitulo_112_-_Betty_llega_a_Cartagena_junto_a_Catalina.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_112_-_Betty_llega_a_Cartagena_junto_a_Catalina.mp4
+    - curl -T Capitulo_113_-_Betty_conoce_a_Michel,_el_frances.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_113_-_Betty_conoce_a_Michel,_el_frances.mp4
+    - curl -T Capitulo_114_-_Betty_abre_su_corazon_con_Catalina.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_114_-_Betty_abre_su_corazon_con_Catalina.mp4
+
+
