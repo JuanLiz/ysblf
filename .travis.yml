@@ -14,21 +14,23 @@ script:
     - sudo sh -c "mkdir /video && chown "$(whoami):"$(whoami) /video" && cd /video
 
 #   ---TRANSCODE---
-    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(3pK_lWmRm9K5a5rtJDyjq9WPZ-kGqnlW9ouskk3CA2vmIrTjmlaysdLu1GBy-71zD1wr2WGvZwKf542Mb53jNnyrJnIqOwoEDyCUY4ZuFEo)/video/434/515/482515434_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4"
-    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(EHfdmWMWS3Jm1rUwOSzPqFhRJzfLTZ4wDxy9L873wJTcYaQOPTJ8JcPn_tYu3jb5jOZOsmkOGDflZsV0SP8jwGzikmq4AOX4_2qi9Bw4dgU)/video/762/306/482603267_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_124_-_Betty_perdona_a_Armando.mp4"
-    - ffmpeg -i "https://proxy-15.nyc.dailymotion.com/sec(6KQ917mD1-x0Bqudp7rLfPy0L2VdoQqyCPkoY8LSnxE9x1K2AoPTkvEf2WF1tBW_l_GcqUrRZm4dG1GEfyQnaNHc-U2TqyG-p-kOkXp6liY)/video/892/736/482637298_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4"
-    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(No_TQeY4Fy-YPTx9YHcvGw4wJko0JdsykIglWm0qoamhsrNKurP5jxb1XGGEw3cfgfa1_kTIM0bVYwHy-fIoSFQPDCmypwEDBwEz4lm3i2o)/video/191/286/482682191_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4"
-    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(s_13t_2f7O0wwaaFk-MzVWEffkbXxwIm7_RPj1NfMXXFItFwz5xyAki19ir4D8R1JKv7otQtSOklYIOb7Ofw78RN-BvQWM4J4xl9CL4Vg9w)/video/962/127/482721269_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4"
-    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(f7C1WGB23Wky-SSXeiIenZG4PkmJ4ezHHe-9jIn6XBD_y71RqWrQzgMa2KFWY_daE56wurDr0ilzpi3Hb9rhtxAZJe2So9MpNrIfP66LJlk)/video/058/657/482756850_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4"
+    - ffmpeg -i "https://proxy-12.nyc.dailymotion.com/sec(ODTxNQv7_D3l1m3AnKDufJt_0xWPwjj7jLjEnsQ2H_0bbCrDWcL5lDQqdGITQvZ4ptg8cGbCbyponVpKEE8DtH9zcnbo9CXvhht5HuOBsYI)/video/887/025/481520788_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_102_-_Armando_golpea_fuertemente_a_Nicolas.mp4"
+    - ffmpeg -i "https://proxy-03.nyc.dailymotion.com/sec(dE83Zyoa3SvsSFjYNnBY1GWvHAhURWjxSAEIxQ1HM8w-e84q5BJI4HMdbB_fk4oLim19e2xOfv9XXjKJQjEp9X8WUFsjWRmC6BgRZx3qiw0)/video/833/455/481554338_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_103_-_Armando_le_confiesa_a_Betty_que_hara_publico_su_amor_por_ella.mp4"
+    - ffmpeg -i "https://proxy-12.nyc.dailymotion.com/sec(x7QhsFQT25E0iGMBVv6oUHKAk8OjK5szHYoTiP-Egsqfib3lYtmujOsbYfZdlaKX8-eUlqMhrzT0eTPHkKkGYsp-w_H6K-CmH3oyNQohOLM)/video/454/156/481651454_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_104_-_Daniel_enfrenta_a_Armando_y_le_pregunta_por_Terramoda.mp4"
+    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(vO9SD42pxLpuBzh8FBnsbcvd1Ro9zOR-gg4Av3xIUfjLbdZR6tiKo46MlrYejazGHHGGeeqDMp3WUA9biQETsEen6ONNxKdYull8cdEhFQQ)/video/618/486/481684816_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_105_-_Armando_le_promete_a_Betty_que_va_a_terminar_su_relacion_con_Marcela.mp4"
+    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(Z9sBt96T4qy4QdcnB69AdH9i-3F2L2gZurAClEpjgmPtm2XZ9wmdRSrtP6dbEVEqOlY6bcci5-2I2EOVAfzjhpDU0nNKTDx6BLMhKh-mQsY)/video/495/427/481724594_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_106_-_Daniel_se_entera_de_los_problemas_economicos_de_Ecomoda.mp4"
+    - ffmpeg -i "https://proxy-03.nyc.dailymotion.com/sec(mjtB_ZvDpmhsRkIqjWJ3qZWNeJzxTfutwuLk2nT9IAS_20g5Jg5D-BFf5kyjqMECCcVptUsP270D0kLKB49WKnXeetTaoJFAM2DKdw7qVEo)/video/420/367/481763024_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_107_-_Nicolas_y_Patricia_viven_una_apasionada_noche.mp4"
+    - ffmpeg -i "https://proxy-17.nyc.dailymotion.com/sec(JhNEqfWhRAthJ1xop57lhob-uMY9mQIhf9_9MyPz5KSzLpLBJ9hLawQ52UuFMWFWgtvNYY3DhS98O9Kyd5zEcA3jT1MCuRMTWO4vZMeoiSQ)/video/999/797/481797999_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_108_-_Daniel_se_entera_de_que_Terramoda_embargo_a_Ecomoda.mp4"
 
 #    - ffmpeg -i "" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 ""$" 
 #   ---UPLOAD---
-   - curl --upload-file ./Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_124_-_Betty_perdona_a_Armando.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_102_-_Armando_golpea_fuertemente_a_Nicolas.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_103_-_Armando_le_confiesa_a_Betty_que_hara_publico_su_amor_por_ella.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_104_-_Daniel_enfrenta_a_Armando_y_le_pregunta_por_Terramoda.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_105_-_Armando_le_promete_a_Betty_que_va_a_terminar_su_relacion_con_Marcela.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_106_-_Daniel_se_entera_de_los_problemas_economicos_de_Ecomoda.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_107_-_Nicolas_y_Patricia_viven_una_apasionada_noche.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_108_-_Daniel_se_entera_de_que_Terramoda_embargo_a_Ecomoda.mp4 http://transfer.sh/
 
 #
 #    - curl --upload-file ./$CXPX http://transfer.sh/
