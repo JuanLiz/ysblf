@@ -14,23 +14,21 @@ script:
     - sudo sh -c "mkdir /video && chown "$(whoami):"$(whoami) /video" && cd /video
 
 #   ---TRANSCODE---
-    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(jRUWpB4i4BTcBhaSBTsVm-iDeRwMrHUXNtiak1eeSC3jJKlcXXW9DRcQMFlEI0B4PZ5VFshOV2JHoyNxcAYfhzGUid7PtV3MVsjJ5bqyfto)/video/594/502/482205495_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_116_-_Catalina_le_dara_un_giro_inesperado_a_la_vida_de_Betty.mp4"
-    - ffmpeg -i "https://proxy-18.nyc.dailymotion.com/sec(eUr04nlHUdL_H2XQBfZlD17osjnV_tfTeYq-LbM1DEzlXBNiX4y-hzqUax7DhQYO_9Bql0kLM20sSCV03IYVYHUstldVjtflokaBfowTLFk)/video/567/542/482245765_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_117_-_Betty_sorprende_a_todos_al_lucir_un_nuevo_look.mp4"
-    - ffmpeg -i "https://proxy-03.nyc.dailymotion.com/sec(No_TQeY4Fy-YPTx9YHcvG8DLUDGn92C9b_3cnnFz_fM5JceMdDaogYnIU7Yez69BUgnW463lgIuVfIMlaRrMbqcpTDsNHAGVdynu9SF40g8)/video/195/292/482292591_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_118_-_Betty_pasa_una_magica_noche_con_Michel.mp4"
-    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(zvUbbWr2oKyjb9WcqKTKNbREU47hiGP647XQGdWUxQpBScXiR_OmjXmraw9kSoOtYYYEqyXzlzqml0i0mRlNOGnKLpNiBl0zc9kxqHeq3zE)/video/272/773/482377272_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_119_-_Armando_le_confirma_a_su_mama_que_esta_enamorado_de_Betty.mp4"
-    - ffmpeg -i "https://proxy-22.nyc.dailymotion.com/sec(f2DpPaaM8u15Kq2lKySPGF-U6QDdYWs4w2IGmNxX01u5Pi6MUK9zaqlzm8pyRYkMYCUrG7Gr2cz00jyC2vgIljc1E9yafbAYPdJDeBo6_MM)/video/814/914/482419418_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_120_-_Betty_va_a_la_peluqueria_y_deslumbra_a_Michel_con_su_cambio.mp4"
-    - ffmpeg -i "https://proxy-14.nyc.dailymotion.com/sec(6KQ917mD1-x0Bqudp7rLfE97uqqOyXJWm5v_VTN91fEosoGeS26uUfXMA-CaC74GTjZ3sJIhzsGumY8i-B3Ch3C1I1Xs1upS0kwFuWYehok)/video/897/054/482450798_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_121_-_Michel_intenta_besar_a_Betty.mp4"
-    - ffmpeg -i "https://proxy-13.nyc.dailymotion.com/sec(4D9qlkTX-vRCFXZHYHjCmssjQ5j2CFIkvN4imwCB97mKXf-F0mM89_uoKr3qz_50hmvoR-cs_P-UuygYdUx5l-CU_eDycV1ti9AEifManw8)/video/069/884/482488960_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_122_-_Julia_le_reclama_a_Armando_por_lo_que_le_hizo_a_Betty.mp4"
+    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(3pK_lWmRm9K5a5rtJDyjq9WPZ-kGqnlW9ouskk3CA2vmIrTjmlaysdLu1GBy-71zD1wr2WGvZwKf542Mb53jNnyrJnIqOwoEDyCUY4ZuFEo)/video/434/515/482515434_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4"
+    - ffmpeg -i "https://proxy-16.nyc.dailymotion.com/sec(EHfdmWMWS3Jm1rUwOSzPqFhRJzfLTZ4wDxy9L873wJTcYaQOPTJ8JcPn_tYu3jb5jOZOsmkOGDflZsV0SP8jwGzikmq4AOX4_2qi9Bw4dgU)/video/762/306/482603267_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_124_-_Betty_perdona_a_Armando.mp4"
+    - ffmpeg -i "https://proxy-15.nyc.dailymotion.com/sec(6KQ917mD1-x0Bqudp7rLfPy0L2VdoQqyCPkoY8LSnxE9x1K2AoPTkvEf2WF1tBW_l_GcqUrRZm4dG1GEfyQnaNHc-U2TqyG-p-kOkXp6liY)/video/892/736/482637298_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4"
+    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(No_TQeY4Fy-YPTx9YHcvGw4wJko0JdsykIglWm0qoamhsrNKurP5jxb1XGGEw3cfgfa1_kTIM0bVYwHy-fIoSFQPDCmypwEDBwEz4lm3i2o)/video/191/286/482682191_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4"
+    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(s_13t_2f7O0wwaaFk-MzVWEffkbXxwIm7_RPj1NfMXXFItFwz5xyAki19ir4D8R1JKv7otQtSOklYIOb7Ofw78RN-BvQWM4J4xl9CL4Vg9w)/video/962/127/482721269_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4"
+    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(f7C1WGB23Wky-SSXeiIenZG4PkmJ4ezHHe-9jIn6XBD_y71RqWrQzgMa2KFWY_daE56wurDr0ilzpi3Hb9rhtxAZJe2So9MpNrIfP66LJlk)/video/058/657/482756850_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4"
 
 #    - ffmpeg -i "" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 ""$" 
 #   ---UPLOAD---
-   - curl --upload-file ./Capitulo_116_-_Catalina_le_dara_un_giro_inesperado_a_la_vida_de_Betty.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_117_-_Betty_sorprende_a_todos_al_lucir_un_nuevo_look.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_118_-_Betty_pasa_una_magica_noche_con_Michel.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_119_-_Armando_le_confirma_a_su_mama_que_esta_enamorado_de_Betty.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_120_-_Betty_va_a_la_peluqueria_y_deslumbra_a_Michel_con_su_cambio.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_121_-_Michel_intenta_besar_a_Betty.mp4 http://transfer.sh/
-   - curl --upload-file ./Capitulo_122_-_Julia_le_reclama_a_Armando_por_lo_que_le_hizo_a_Betty.mp4 http://transfer.sh/
+   - curl --upload-file ./Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
+   - curl --upload-file ./Capitulo_124_-_Betty_perdona_a_Armando.mp4 http://transfer.sh/
+   - curl --upload-file ./Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4 http://transfer.sh/
+   - curl --upload-file ./Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4 http://transfer.sh/
+   - curl --upload-file ./Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4 http://transfer.sh/
+   - curl --upload-file ./Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4 http://transfer.sh/
 
 #
 #    - curl --upload-file ./$CXPX http://transfer.sh/
