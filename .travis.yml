@@ -1,6 +1,6 @@
 language: shell
 os: linux
-dist: bionic
+dist: focal
 
 
 addons:
@@ -19,32 +19,8 @@ script:
 #    - curl --upload-file ./Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
 #   ---2WEBDAV---
     - wget http://transfer.sh/PreO2/Capitulo_115_-_Armando_le_confiesa_a_Marcela_que_se_enamoro_de_Betty.mp4
-    - wget http://transfer.sh/TGH0m/Capitulo_116_-_Catalina_le_dara_un_giro_inesperado_a_la_vida_de_Betty.mp4
-    - wget http://transfer.sh/EjzVR/Capitulo_117_-_Betty_sorprende_a_todos_al_lucir_un_nuevo_look.mp4
-    - wget http://transfer.sh/Ajvvp/Capitulo_118_-_Betty_pasa_una_magica_noche_con_Michel.mp4
-    - wget http://transfer.sh/tPaR7/Capitulo_119_-_Armando_le_confirma_a_su_mama_que_esta_enamorado_de_Betty.mp4
-    - wget http://transfer.sh/2hjnq/Capitulo_120_-_Betty_va_a_la_peluqueria_y_deslumbra_a_Michel_con_su_cambio.mp4
-    - wget http://transfer.sh/HstQ2/Capitulo_121_-_Michel_intenta_besar_a_Betty.mp4
-    - wget http://transfer.sh/Gd2uV/Capitulo_122_-_Julia_le_reclama_a_Armando_por_lo_que_le_hizo_a_Betty.mp4
-    - wget http://transfer.sh/7pOUB/Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4
-    - wget http://transfer.sh/ooJwH/Capitulo_124_-_Betty_perdona_a_Armando.mp4
-    - wget http://transfer.sh/mtT52/Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4
-    - wget http://transfer.sh/Eru2u/Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4
-    - wget http://transfer.sh/11sW36/Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4
-    - wget http://transfer.sh/12KEb1/Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4
+    - wget https://east.manifest.na.theplatform.com/m/HNK2IC/D1IJE1Z0s13O,2hhwz_GPz2y6,zo05W19n6L2Z,fS4Q6TAYLY_W,NsPxmnPsbv1y,jpaam3047DYq,DPKN_R1_ork0/6.m3u8?sid=93324c00-f60c-4750-9ed6-413dadcab30c&policy=147097229&date=1614548130389&ip=192.241.251.36&schema=1.1&cid=8a291fd0-05b8-427e-82b4-3206f5d9aa9b&host=tvetelemundohls.nbcuni.com&meta=false&manifest=M3U&switch=HLSOriginSecure&am_sdkv=null&_fw_did=81dff167-0815-4117-b560-2ef7c23d4676&_fw_h_referer=www.nbc.com&nw=169843&siteSectionId=oneapp_desktop_computer_web_ondemand&am_extmp=default&tracking=true&uuid=81dff167-0815-4117-b560-2ef7c23d4676&am_appv=null&mode=on-demand&uoo=0&sfid=9244655&player=%5Bv2%5D+OneApp+-+PDK6+NBC.com&am_buildv=null&am_abvrtd=0&am_cpsv=4.0.0-2&metr=1023&csid=oneapp_desktop_computer_web_ondemand&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F88.0.4324.182+Safari%2F537.36+Edg%2F88.0.705.81&prof=nbcu_web_svp_js_https&afid=200265138&fallbackSiteSectionId=9244655&vpaid=script&_fw_vcid2=169843%3A260990995613091698&rdid=3438921e-f906-bbe5-b29e-38466dccfd13&am_crmid=260990995613091698&am_playerv=null&sdk=PDK+6.4.3&did=3438921e-f906-bbe5-b29e-38466dccfd13&am_stitcherv=poc&am_abtestid=0&sig=6caa25610ce1297377e097d50d0c4eb5af098600aca5e56302b157bc1b15f2e1
+    - curl -T Capítulo 1.mp4 http://transfer.sh  
+#    - curl -T Capitulo_115_-_Armando_le_confiesa_a_Marcela_que_se_enamoro_de_Betty.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_115_-_Armando_le_confiesa_a_Marcela_que_se_enamoro_de_Betty.mp4
 
-    - curl -T Capitulo_115_-_Armando_le_confiesa_a_Marcela_que_se_enamoro_de_Betty.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_115_-_Armando_le_confiesa_a_Marcela_que_se_enamoro_de_Betty.mp4
-    - curl -T Capitulo_116_-_Catalina_le_dara_un_giro_inesperado_a_la_vida_de_Betty.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_116_-_Catalina_le_dara_un_giro_inesperado_a_la_vida_de_Betty.mp4
-    - curl -T Capitulo_117_-_Betty_sorprende_a_todos_al_lucir_un_nuevo_look.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_117_-_Betty_sorprende_a_todos_al_lucir_un_nuevo_look.mp4
-    - curl -T Capitulo_118_-_Betty_pasa_una_magica_noche_con_Michel.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_118_-_Betty_pasa_una_magica_noche_con_Michel.mp4
-    - curl -T Capitulo_119_-_Armando_le_confirma_a_su_mama_que_esta_enamorado_de_Betty.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_119_-_Armando_le_confirma_a_su_mama_que_esta_enamorado_de_Betty.mp4
-    - curl -T Capitulo_120_-_Betty_va_a_la_peluqueria_y_deslumbra_a_Michel_con_su_cambio.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_120_-_Betty_va_a_la_peluqueria_y_deslumbra_a_Michel_con_su_cambio.mp4
-    - curl -T Capitulo_121_-_Michel_intenta_besar_a_Betty.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_121_-_Michel_intenta_besar_a_Betty.mp4
-    - curl -T Capitulo_122_-_Julia_le_reclama_a_Armando_por_lo_que_le_hizo_a_Betty.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_122_-_Julia_le_reclama_a_Armando_por_lo_que_le_hizo_a_Betty.mp4
-    - curl -T Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4
-    - curl -T Capitulo_124_-_Betty_perdona_a_Armando.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_124_-_Betty_perdona_a_Armando.mp4
-    - curl -T Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_125_-_Don_Hermes_no_se_queda_con_los_brazos_cruzados_y_va_a_Ecomoda.mp4
-    - curl -T Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_126_-_Betty_sorprende_a_sus_papas_con_su_cambio_de_look.mp4
-    - curl -T Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_127_-_Betty_acepta_ir_a_Ecomoda.mp4
-    - curl -T Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4 -u juanliz:C%9Z2p6c6RqD https://ftp.cdnrobot.xyz/webdav/YSBLF-2020/Capitulo_128_-_La_emocionante_llegada_de_Betty_a_Ecomoda.mp4
     
