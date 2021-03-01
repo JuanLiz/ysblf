@@ -13,7 +13,7 @@ script:
 
 #   ---TRANSCODE---
     - pip3 install --upgrade youtube_dl
-    - youtube-dl https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-1/4264185
+    - youtube-dl --all-subs https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-1/4264185 
 #   ---UPLOAD---
 #    - curl --upload-file ./Capitulo_123_-_Michel_le_pide_perdon_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
 #   ---2WEBDAV---
