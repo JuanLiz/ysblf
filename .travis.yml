@@ -11,27 +11,27 @@ addons:
 script:
     - sudo sh -c "mkdir /video && chown "$(whoami):"$(whoami) /video" && cd /video
 #   ---TRANSCODE---
-    - ffmpeg -i "https://proxy-13.nyc.dailymotion.com/sec(wIhAEtcGY0FlKmw_K5ItmaRHTbodaNKHTcGY2VpzCpK7TTEKLwOatiJXsWP9yRMZSZKsMmz8toj9UEh7QuN3t2P8kfsz-m88KtwyfYWkok4)/video/712/248/482842217_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_129_-_Betty_acepta_la_presidencia_de_Ecomoda.mp4"
-    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(06B2xrQvupyx3v5AXa2ZbfCA889vrxV7pFN15T71aTakl0eTTjmVsgT184f2Cnpwx4WrAyA8treySIHby6vZK7NufdZTV3PTYdv5AYi0GpQ)/video/160/188/482881061_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_130_-_Marcela_le_cuenta_a_Betty_que_volvio_con_Armando.mp4"
-    - ffmpeg -i "https://proxy-09.nyc.dailymotion.com/sec(VCPt2gqlXqNXWRYfJNVmKyxPwtAwGbIlJRAv2RSCeqZLynxhPM5qcOKf8gAxscBan_zcN5GTOrlPwyxb5FLVdwHAorm3M9ceLZUwuOqujG8)/video/977/249/482942779_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_131_-_Marcela_le_da_celos_a_Betty_con_Armando.mp4"
-    - ffmpeg -i "https://proxy-17.nyc.dailymotion.com/sec(vO9SD42pxLpuBzh8FBnsbSU6aFAQaO88tq1eysVF8XBPaVF79WznibrI7iUUDtM1pi_7gG1gFcVKhniVD1U1Oyvia3KBxryCOf6pBewEh6I)/video/612/379/482973216_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_132_-_Armando_busca_a_Betty_y_le_hace_una_gran_confesion.mp4"
-    - ffmpeg -i "https://proxy-07.nyc.dailymotion.com/sec(vlh-KpwGb8HUr2KugsbYOewRSPxxJA9ECXFt0Ivjxh4L7B4XBxWBZmMs4j-V_08CY6Qst52f2-zIK9tE2xoolVmGO0IK0sME9VDlsAKweyo)/video/412/720/483027214_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_133_-_La_divertida_experiencia_de_Patricia_en_un_bus.mp4"
-#    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(VCPt2gqlXqNXWRYfJNVmK1E256yDxpT0yPeut55VwiBPHwELADM-PaFrCRlxTRnH0CZIA7fYPfAMuHQRxrMZwRrnScPeMxRk1iVELu8Kbf4)/video/975/121/483121579_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_134_-_Betty_le_pide_respeto_a_Marcela.mp4"
-#    - ffmpeg -i "https://proxy-12.nyc.dailymotion.com/sec(jTKgwcrKhv91TFF2DjnhPuXGVUl0j3AzNw0fP8uT-mmn-FHl9r7vIK9z6tRRxd5SPVxe3bwDw5svV9-1HjgjXi_fS_6d05IUW8ROFs5dm6k)/video/671/451/483154176_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_135_-_Betty_informa_los_nuevos_cambios_en_Ecomoda.mp4"
-#    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTpxY8gOpeorW9gmiasQWNr7b7ZTY9TPJIO9Qp_v745L1ZBILJv7JCOjLPOX_cSVyJ9HzR-Y3CW94rEPoDBLt84A)/video/642/891/483198246_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_136_-_Las_del_cuartel_se_enteran_de_la_relacion_que_hubo_entre_Betty_y_Armando.mp4"
-#    - ffmpeg -i "https://proxy-09.nyc.dailymotion.com/sec(Mkgc3P06SdNh4JR9hfG_16efyQobfEcC7d2_XyvToMCfUtmu3xY92-99My14uaqXCNi5haMRvapZbcc1ke8Thl7mtCzmpZvx2P7w9x6Dup0)/video/578/932/483239875_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_137_-_Marcela_descubre_a_las_del_cuartel_hablando_mal_de_ella.mp4"
-#    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(UoA1sdU9rYQHE4nL1sa5RL_Yl1THXifrT_vkrOYmxiWvwHQBNeFsXx23VvsubqwN9Z22LlT7z-mhLbdvSo6egwj5m5KneuIm-5LXL6gxG80)/video/325/072/483270523_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_138_-_Betty_confronta_a_las_del_cuartel.mp4"
+#    - ffmpeg -i "https://proxy-13.nyc.dailymotion.com/sec(wIhAEtcGY0FlKmw_K5ItmaRHTbodaNKHTcGY2VpzCpK7TTEKLwOatiJXsWP9yRMZSZKsMmz8toj9UEh7QuN3t2P8kfsz-m88KtwyfYWkok4)/video/712/248/482842217_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_129_-_Betty_acepta_la_presidencia_de_Ecomoda.mp4"
+#    - ffmpeg -i "https://proxy-20.nyc.dailymotion.com/sec(06B2xrQvupyx3v5AXa2ZbfCA889vrxV7pFN15T71aTakl0eTTjmVsgT184f2Cnpwx4WrAyA8treySIHby6vZK7NufdZTV3PTYdv5AYi0GpQ)/video/160/188/482881061_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_130_-_Marcela_le_cuenta_a_Betty_que_volvio_con_Armando.mp4"
+#    - ffmpeg -i "https://proxy-09.nyc.dailymotion.com/sec(VCPt2gqlXqNXWRYfJNVmKyxPwtAwGbIlJRAv2RSCeqZLynxhPM5qcOKf8gAxscBan_zcN5GTOrlPwyxb5FLVdwHAorm3M9ceLZUwuOqujG8)/video/977/249/482942779_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_131_-_Marcela_le_da_celos_a_Betty_con_Armando.mp4"
+#    - ffmpeg -i "https://proxy-17.nyc.dailymotion.com/sec(vO9SD42pxLpuBzh8FBnsbSU6aFAQaO88tq1eysVF8XBPaVF79WznibrI7iUUDtM1pi_7gG1gFcVKhniVD1U1Oyvia3KBxryCOf6pBewEh6I)/video/612/379/482973216_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_132_-_Armando_busca_a_Betty_y_le_hace_una_gran_confesion.mp4"
+#    - ffmpeg -i "https://proxy-07.nyc.dailymotion.com/sec(vlh-KpwGb8HUr2KugsbYOewRSPxxJA9ECXFt0Ivjxh4L7B4XBxWBZmMs4j-V_08CY6Qst52f2-zIK9tE2xoolVmGO0IK0sME9VDlsAKweyo)/video/412/720/483027214_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_133_-_La_divertida_experiencia_de_Patricia_en_un_bus.mp4"
+    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(VCPt2gqlXqNXWRYfJNVmK1E256yDxpT0yPeut55VwiBPHwELADM-PaFrCRlxTRnH0CZIA7fYPfAMuHQRxrMZwRrnScPeMxRk1iVELu8Kbf4)/video/975/121/483121579_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_134_-_Betty_le_pide_respeto_a_Marcela.mp4"
+    - ffmpeg -i "https://proxy-12.nyc.dailymotion.com/sec(jTKgwcrKhv91TFF2DjnhPuXGVUl0j3AzNw0fP8uT-mmn-FHl9r7vIK9z6tRRxd5SPVxe3bwDw5svV9-1HjgjXi_fS_6d05IUW8ROFs5dm6k)/video/671/451/483154176_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_135_-_Betty_informa_los_nuevos_cambios_en_Ecomoda.mp4"
+    - ffmpeg -i "https://proxy-08.nyc.dailymotion.com/sec(zBLo9_ZO9Yz5cZ8xnl9pTpxY8gOpeorW9gmiasQWNr7b7ZTY9TPJIO9Qp_v745L1ZBILJv7JCOjLPOX_cSVyJ9HzR-Y3CW94rEPoDBLt84A)/video/642/891/483198246_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_136_-_Las_del_cuartel_se_enteran_de_la_relacion_que_hubo_entre_Betty_y_Armando.mp4"
+    - ffmpeg -i "https://proxy-09.nyc.dailymotion.com/sec(Mkgc3P06SdNh4JR9hfG_16efyQobfEcC7d2_XyvToMCfUtmu3xY92-99My14uaqXCNi5haMRvapZbcc1ke8Thl7mtCzmpZvx2P7w9x6Dup0)/video/578/932/483239875_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_137_-_Marcela_descubre_a_las_del_cuartel_hablando_mal_de_ella.mp4"
+    - ffmpeg -i "https://proxy-21.nyc.dailymotion.com/sec(UoA1sdU9rYQHE4nL1sa5RL_Yl1THXifrT_vkrOYmxiWvwHQBNeFsXx23VvsubqwN9Z22LlT7z-mhLbdvSo6egwj5m5KneuIm-5LXL6gxG80)/video/325/072/483270523_mp4_h264_aac_hd.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 23 "Capitulo_138_-_Betty_confronta_a_las_del_cuartel.mp4"
 #   ---UPLOAD---
-    - curl --upload-file ./Capitulo_129_-_Betty_acepta_la_presidencia_de_Ecomoda.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_130_-_Marcela_le_cuenta_a_Betty_que_volvio_con_Armando.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_131_-_Marcela_le_da_celos_a_Betty_con_Armando.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_132_-_Armando_busca_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
-    - curl --upload-file ./Capitulo_133_-_La_divertida_experiencia_de_Patricia_en_un_bus.mp4 http://transfer.sh/
-#    - curl --upload-file ./Capitulo_134_-_Betty_le_pide_respeto_a_Marcela.mp4 http://transfer.sh/
-#    - curl --upload-file ./Capitulo_135_-_Betty_informa_los_nuevos_cambios_en_Ecomoda.mp4 http://transfer.sh/
-#    - curl --upload-file ./Capitulo_136_-_Las_del_cuartel_se_enteran_de_la_relacion_que_hubo_entre_Betty_y_Armando.mp4 http://transfer.sh/
-#    - curl --upload-file ./Capitulo_137_-_Marcela_descubre_a_las_del_cuartel_hablando_mal_de_ella.mp4 http://transfer.sh/
-#    - curl --upload-file ./Capitulo_138_-_Betty_confronta_a_las_del_cuartel.mp4 http://transfer.sh/
+#    - curl --upload-file ./Capitulo_129_-_Betty_acepta_la_presidencia_de_Ecomoda.mp4 http://transfer.sh/
+#    - curl --upload-file ./Capitulo_130_-_Marcela_le_cuenta_a_Betty_que_volvio_con_Armando.mp4 http://transfer.sh/
+#    - curl --upload-file ./Capitulo_131_-_Marcela_le_da_celos_a_Betty_con_Armando.mp4 http://transfer.sh/
+#    - curl --upload-file ./Capitulo_132_-_Armando_busca_a_Betty_y_le_hace_una_gran_confesion.mp4 http://transfer.sh/
+#    - curl --upload-file ./Capitulo_133_-_La_divertida_experiencia_de_Patricia_en_un_bus.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_134_-_Betty_le_pide_respeto_a_Marcela.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_135_-_Betty_informa_los_nuevos_cambios_en_Ecomoda.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_136_-_Las_del_cuartel_se_enteran_de_la_relacion_que_hubo_entre_Betty_y_Armando.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_137_-_Marcela_descubre_a_las_del_cuartel_hablando_mal_de_ella.mp4 http://transfer.sh/
+    - curl --upload-file ./Capitulo_138_-_Betty_confronta_a_las_del_cuartel.mp4 http://transfer.sh/
 
 
 
